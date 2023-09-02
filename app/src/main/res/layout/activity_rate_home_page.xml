@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@mipmap/movieb2">
+
+
+
+<Button
+    android:id="@+id/importFromRotten"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginTop="20dp"
+    android:text="Import ratings from my rottentomatoes account"
+    android:background="@drawable/trans_background3"
+    android:textColor="#fff"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"/>
+<Button
+    android:id="@+id/rateMoviesButton"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginTop="10dp"
+    android:text="Rate random movies"
+    android:background="@drawable/trans_background3"
+    android:textColor="#fff"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"/>
+
+    <Button
+        android:id="@+id/searchButton2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="Rate Specific Movie"
+        android:background="@drawable/trans_background3"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:id="@+id/myRatingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="My ratings"
+        android:background="@drawable/trans_background3"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:text="Current Ratings :"
+    android:textStyle="bold"
+    android:id="@+id/movieCount"
+    android:textColor="#fff"/>
+
+    <TextView
+        android:id="@+id/responseTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

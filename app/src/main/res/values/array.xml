@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listArray">
+        <item>Use both ratings</item>
+        <item>Use local ratings</item>
+        <item>Use rottentomatoes ratings</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="movieGenres">
+        <item>Any</item>
+        <item>Classics</item>
+        <item>Science Fiction &amp; Fantasy</item>
+        <item>Gay &amp; Lesbian</item>
+        <item>Kids &amp; Family</item>
+        <item>Horror</item>
+        <item>Romance</item>
+        <item>Anime &amp; Manga</item>
+        <item>Art House &amp; International</item>
+        <item>Special Interest</item>
+        <item>Musical &amp; Performing Arts</item>
+        <item>Faith &amp; Spirituality</item>
+        <item>Western</item>
+        <item>Documentary</item>
+        <item>Drama</item>
+        <item>Television</item>
+        <item>Sports &amp; Fitness</item>
+        <item>Animation</item>
+        <item>Adult</item>
+        <item>Comedy</item>
+        <item>Cult Movies</item>
+        <item>Action &amp; Adventure</item>
+        <item>Mystery &amp; Suspense</item>
+    </string-array>
+
+    <string-array name="agerating">
+        <item>Any</item>
+        <item>PG-13</item>
+        <item>R</item>
+        <item>NC-17</item>
+        <item>PG</item>
+        <item>G</item>
+    </string-array>
+    <string-array name="popularity">
+        <item>Any</item>
+        <item>Medium</item>
+        <item>High</item>
+        <item>Very High</item>
+    </string-array>
+</resources>

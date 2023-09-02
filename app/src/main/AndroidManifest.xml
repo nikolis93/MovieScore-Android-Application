@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.netdil.recapp"
+    android:installLocation="preferExternal"
+    android:largeHeap="true">
+
+    <!-- <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="24" /> -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
+    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> an vgalei error na vgalw ayto apo ta comments -->
+    <!--  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />  -->
+
+      <application
+          android:name=".ApplContext"
+          android:allowBackup="true"
+          android:icon="@mipmap/popcorn"
+          android:label="@string/app_name"
+          android:supportsRtl="true"
+          android:theme="@style/AppTheme"
+          android:largeHeap="true"
+          >
+          <!--android:theme="@style/AppTheme" -->
+
+
+          <!-- android:theme="@style/Theme.AppCompat.Light" -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".showRecomendationsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RateMovies"
+            android:screenOrientation="portrait" />
+          <activity android:name=".RateHomePageActivity" />
+        <activity android:name=".ImportFromRottenActivity" />
+        <activity
+            android:name=".MyRatingsActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".SearchForAMovieActivity" />
+        <activity android:name=".MyPreferencesActivity"/>
+        <activity android:name=".RecommendationHomePageActivity" />
+        <activity android:name=".RecommendationForASingleMovieActivity" />
+        <activity android:name=".PickAMovieForRecommendationActivity" />
+        <activity android:name=".FilterActivity" />
+       <!-- <activity android:name=".myDialogFragment" /> -->
+        <activity
+            android:name=".specificRecommendationsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".showSingleFragmentActivity"
+            android:screenOrientation="portrait"/>
+        <!--<activity android:name=".singlePagerAdapter" />
+        <activity android:name=".specificFragment" /> -->
+        <activity
+            android:name=".WatchingList"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

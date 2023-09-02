@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/coordinatorID"
+    >
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/demoScrollView"
+
+    android:background="@mipmap/movieb2">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_show_recomendations"
+    android:paddingTop="5dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal">
+
+
+    <ImageView
+
+        android:id="@+id/movieImage"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:maxWidth="200dp"
+        android:maxHeight="300dp"
+        >
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="moviename"
+        android:id="@+id/movieName"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:textColor="#fff">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+        <android.support.v7.widget.AppCompatRatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/demoSingleMovieRatingBar"
+            android:layout_gravity="center"
+          />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_watch_later_black_18dp"
+            android:id="@+id/addToWatchingListImage" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_delete"
+            android:id="@+id/deleteImage" />
+    </LinearLayout>
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        android:id="@+id/demoTable">
+
+
+    <TableRow android:background="#4f8bca"
+       >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nRecommendation \n"
+            android:id="@+id/recomStatic"
+            android:textColor="#fff"
+            android:paddingLeft="3dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/recom"
+            android:textColor="#fff">
+
+        </TextView>
+    </TableRow>
+
+    <TableRow android:background="#4ca2d6">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nGenre \n"
+            android:id="@+id/genreStatic"
+            android:textColor="#fff"
+            android:paddingLeft="3dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/genre"
+            android:layout_weight="1"
+            android:textColor="#fff">
+
+        </TextView>
+
+    </TableRow>
+
+
+    <TableRow android:background="#4f8bca">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nAge Rating \n"
+            android:id="@+id/ageRatingStatic"
+            android:textColor="#fff"
+            android:paddingLeft="3dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/ageRating"
+            android:textColor="#fff">
+
+        </TextView>
+    </TableRow>
+
+    <TableRow android:background="#4ca2d6"
+         >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nDirector \n"
+            android:id="@+id/directorStatic"
+            android:textColor="#fff"
+            android:paddingLeft="3dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/director"
+            android:textColor="#fff">
+
+        </TextView>
+    </TableRow>
+
+
+    <TableRow android:background="#4f8bca">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nDuration \n"
+            android:id="@+id/durationStatic"
+            android:textColor="#fff"
+            android:paddingLeft="3dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/duration"
+            android:textColor="#fff">
+
+        </TextView>
+    </TableRow>
+
+    <TableRow android:background="#4ca2d6"
+         >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nYear \n"
+            android:id="@+id/yearInTheatersStatic"
+            android:textColor="#fff"
+            android:paddingLeft="3dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/yearInTheaters"
+            android:textColor="#fff">
+
+        </TextView>
+    </TableRow>
+    </TableLayout>
+
+
+
+
+</LinearLayout>
+    </ScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/myFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:fabSize="normal"
+        android:src="@android:drawable/ic_menu_search"
+        app:backgroundTint="#032fce"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        app:layout_anchorGravity="bottom|right|end"
+        />
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:id="@+id/scrollMainActivity"
+    android:background="@mipmap/movieb2">
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="The Movie Suggestion App, NETDIL TEI Of Crete"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:id="@+id/netdilText"/>
+
+
+        <Button
+            android:id="@+id/recommendButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:text="Recommendations"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#fff"
+            android:background="@drawable/trans_background3"
+            />
+
+        <Button
+            android:id="@+id/rateButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Ratings"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#fff"
+            android:background="@drawable/trans_background3"
+            android:layout_marginTop="10dp"
+
+            />
+
+        <Button
+            android:id="@+id/watcingListButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Watchlist"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#fff"
+            android:background="@drawable/trans_background3"
+            android:layout_marginTop="10dp"/>
+
+
+        <Button
+            android:id="@+id/settingsButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Settings"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#fff"
+            android:background="@drawable/trans_background3"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/aboutButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="About"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#fff"
+            android:background="@drawable/trans_background3"
+            android:layout_marginTop="10dp"
+
+
+            />
+
+
+
+
+        <!-- <Button
+             android:id="@+id/savefile"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:text="Save File" /> -->
+
+        <TextView
+            android:id="@+id/responseTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="#000"
+            />
+
+    </LinearLayout>
+</ScrollView>

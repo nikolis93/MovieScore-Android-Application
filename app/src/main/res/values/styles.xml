@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="myCustomTheme" parent="android:Theme.Holo.Light" >
+        <item name="android:colorBackground">@color/background_holo_light</item>
+        <item name="android:textColorPrimaryInverse">?android:attr/colorMultiSelectHighlight</item>
+    </style>
+
+    <style name="customTheme2" parent="Theme.AppCompat" />
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">#fff</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <!-- Used for the background -->
+        <item name="android:background">#5492d2</item>
+    </style>
+
+
+</resources>

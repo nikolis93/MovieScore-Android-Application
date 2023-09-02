@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#4f8bca"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/filterByYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Filter by Year"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="0.03"
+        android:inputType="number"/>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/filterByDirector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Filter by Director"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="0.03" />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/filterByRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Filter by Rating"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="0.03"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/genreButton"
+        android:text="Filter by genre"
+        android:background="@drawable/trans_background3"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/ageRatingButton"
+        android:text="Filter by Age Rating"
+        android:background="@drawable/trans_background3"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/popularityButton"
+        android:text="Filter by Popularity"
+        android:background="@drawable/trans_background3"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+    <Button
+        android:id="@+id/filterButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Filter"
+        android:background="@drawable/trans_background3"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Clear"
+        android:background="@drawable/trans_background3"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+   </LinearLayout>
+
+
+</LinearLayout>
